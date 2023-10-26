@@ -13,10 +13,7 @@
         android:theme="@style/Theme.Proyecto"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_frame"
-            android:exported="false" />
-        <activity
-            android:name=".ActivityLinear"
+            android:name=".ActivityRelative"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -27,6 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Activity_frame"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLinear"
+            android:exported="false" />
     </application>
 
 </manifest>

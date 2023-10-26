@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/papa"
+    tools:context=".ActivityRelative">
+
+
+    <ImageView
+
+        android:id="@+id/image1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/avatar1_chico"
+        />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_below="@+id/image1"
+        android:layout_centerHorizontal="true"
+
+
+        android:text="Nombre de Usuario" />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:layout_below="@id/usuario"
+        android:layout_centerHorizontal="true"
+        android:text="Correo Electrónico" />
+
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/correo"
+
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/cerrar"
+
+        />
+</RelativeLayout>

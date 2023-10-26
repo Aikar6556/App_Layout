@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Proyecto</string>
+    <string-array name="array_modulos">
+        <item>Sistemas informáticos</item>
+        <item>Bases de Datos</item>
+        <item>Programación</item>
+        <item>Lenguajes de marcas</item>
+        <item>Entornos de desarrollo</item>
+        <item>Formación y Orientación Laboral</item>
+        <item>Sistemas Informáticos</item>
+        <item>Bases de Datos</item>
+        <item>Programación</item>
+        <item>Lenguajes de marcas</item>
+        <item>Entornos de desarrollo</item>
+
+
+    </string-array>
+
+
+
 </resources>

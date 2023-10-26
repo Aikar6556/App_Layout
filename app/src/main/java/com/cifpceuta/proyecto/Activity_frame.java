@@ -28,14 +28,14 @@ public class Activity_frame extends AppCompatActivity {
     btnPlay.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            videoView.start();
+            play(view);
         }
     });
 
     btnPause.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            videoView.pause();
+            pausebtn(view);
         }
     });
 
@@ -50,11 +50,13 @@ public class Activity_frame extends AppCompatActivity {
         }else{
             videoView.start();
         }
+        btnPlay.setVisibility(View.INVISIBLE);
+        btnPause.setVisibility(View.VISIBLE);
 
 
     }
 
-    public void metodo2 (View v){
+    public void pausebtn (View v){
 
         videoView.pause();
         btnPlay.setVisibility(View.VISIBLE);
