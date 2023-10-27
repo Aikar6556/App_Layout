@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void botonTable (View v){
+        Intent i = new Intent(this, TableLayout.class);
+        startActivity(i);
+    }
+
 
 
 
