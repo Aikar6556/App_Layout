@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityGrid">
+
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Mis compañeros"
+        >
+    </TextView>
+
+
+
+
+
+    <GridLayout
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:columnCount="4"
+
+        >
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar1_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar2_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar3_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar4_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar1_chico"/>
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar2_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar3_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar4_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar1_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar2_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar3_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar4_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar1_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar2_chica"/>
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar3_chico"/>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="btnChat"
+        android:src="@drawable/avatar4_chica"/>
+
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="volver"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:text="Volver" />
+
+</LinearLayout>
