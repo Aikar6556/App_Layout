@@ -18,6 +18,13 @@ public class ActivityGrid extends AppCompatActivity {
 
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
-
     }
+
+    public void btnChat (View view){
+
+        Intent i = new Intent(this, ActivityConstraint.class);
+        startActivity(i);
+    }
+
+
 }
